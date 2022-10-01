@@ -2,7 +2,7 @@ import React from "react";
 
 const Video = () => {
   return (
-    <div className="relative">
+    <div className="">
       <iframe
         frameborder="0"
         allowfullscreen="1"
