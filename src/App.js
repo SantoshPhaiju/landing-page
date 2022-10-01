@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 import Video from "./components/Video";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Video />
       <Card />
+      <Services />
     </div>
   );
 }
