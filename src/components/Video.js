@@ -4,15 +4,15 @@ const Video = () => {
   return (
     <div className="">
       <iframe
-        frameborder="0"
-        allowfullscreen="1"
+        frameBorder="0"
+        allowFullScreen="1"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         title="Movie No Sound"
         width="100%"
         height="800"
         src="https://www.youtube.com/embed/CK1ndZEkBcE?autoplay=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;origin=https%3A%2F%2Fluxiren-react.vercel.app&amp;enablejsapi=1&amp;widgetid=1"
         id="widget2"
-        className="relative"
+        className="relative w-[100%]"
         style={{ borderRadius: "0 0 50% 50%/0 0 15% 15%", height: "90vh" }}
       ></iframe>
 

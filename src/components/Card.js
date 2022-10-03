@@ -20,7 +20,8 @@ const Card = () => {
           <p className="text-lg mt-4">
             Vestibulum faucibus eget erat eget pretium. Donec commodo convallis
             eget suscipit orci.
-          </p>
+          </p>satosh gadha badar
+          
 
           <div className="buttons flex space-x-2 items-center mt-10">
             <Button variant="text" className="px-2 py-2 text-lg">
