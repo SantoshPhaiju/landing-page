@@ -79,8 +79,8 @@ const FaqSection = () => {
                   <div
                     className={
                       open === Number(index)
-                        ? `accordianHeading py-4 px-4 bg-pink-700 text-white rounded-t-xl text-xl flex justify-between`
-                        : `accordianHeading py-4 px-4 bg-white border-t-2 border-gray-100 text-black rounded-xl text-xl flex justify-between`
+                        ? `accordianHeading py-4 px-4 bg-pink-700 text-white rounded-t-xl text-xl flex justify-between font-serif`
+                        : `accordianHeading py-4 px-4 bg-white border-t-2 border-gray-100 text-gray-600 rounded-xl text-xl flex justify-between font-serif`
                     }
                   >
                     {item.title}
