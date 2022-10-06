@@ -7,31 +7,31 @@ const FaqSection = () => {
   const data = [
     {
       id: 1,
-      title: "Title 1",
+      title: "Pellentesque ac bibendum tortor?",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatum rerum consectetur eligendi a perferendis quis fugiat aliquam labore, aut, nemo eaque amet, quibusdam        ullam! Praesentium provident maiores expedita quasi.",
     },
     {
       id: 2,
-      title: "Title 2",
+      title: "In mi nulla, fringilla vestibulum?",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatum rerum consectetur eligendi a perferendis quis fugiat aliquam labore, aut, nemo eaque amet, quibusdam        ullam! Praesentium provident maiores expedita quasi.",
     },
     {
       id: 3,
-      title: "Title 3",
+      title: "Perferendis quis fugiat aliquam labore, aut",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatum rerum consectetur eligendi a perferendis quis fugiat aliquam labore, aut, nemo eaque amet, quibusdam        ullam! Praesentium provident maiores expedita quasi.",
     },
     {
       id: 4,
-      title: "Title 4",
+      title: "Quisque ut metus sit amet augue?",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatum rerum consectetur eligendi a perferendis quis fugiat aliquam labore, aut, nemo eaque amet, quibusdam        ullam! Praesentium provident maiores expedita quasi.",
     },
     {
       id: 5,
-      title: "Title 5",
+      title: "Pellentesque ac bibendum tortor?",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatum rerum consectetur eligendi a perferendis quis fugiat aliquam labore, aut, nemo eaque amet, quibusdam        ullam! Praesentium provident maiores expedita quasi.",
     },
@@ -79,8 +79,8 @@ const FaqSection = () => {
                   <div
                     className={
                       open === Number(index)
-                        ? `accordianHeading py-4 px-4 bg-pink-700 text-white rounded-t-xl text-xl flex justify-between font-serif`
-                        : `accordianHeading py-4 px-4 bg-white border-t-2 border-gray-100 text-gray-600 rounded-xl text-xl flex justify-between font-serif`
+                        ? `accordianHeading py-5 px-4 bg-pink-700 text-white rounded-t-xl text-xl flex justify-between font-serif`
+                        : `accordianHeading py-5 px-4 bg-white border-t-2 border-gray-100 text-gray-600 rounded-xl text-xl flex justify-between font-serif`
                     }
                   >
                     {item.title}

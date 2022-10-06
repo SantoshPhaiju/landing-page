@@ -4,7 +4,6 @@
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #fff;
 
@@ -25,4 +24,9 @@
 
 .mySwiper{
   padding: 35px 30px;
+}
+
+
+.thisSwiper{
+  padding: 20px 0;
 }
